@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site" method="upgrade">
+	<name>qxapp</name>
+	<version>1.0.0</version>
+    <author>Pearls Media Publishing</author>
+    <copyright>(C) 2008-2012 Pearls Media Publishing.</copyright>
+    <creationDate>June 2009</creationDate>
+    <authorEmail>support@pearls-media.com</authorEmail>
+    <authorUrl>http://www.xapp-studio.com</authorUrl>
+    <license>GNU/GPL v2 - http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <description>QuickXApp!</description>
+
+	<files>
+		<filename>index.php</filename>
+        <filename>includes.php</filename>
+        <filename>.htaccess</filename>
+		<filename>template_thumbnail.png</filename>
+        <filename>soundmanager2.swf</filename>
+        <filename>soundmanager2_flash9.swf</filename>
+		<folder>images</folder>
+        <folder>xasweb</folder>
+        <folder>css</folder>
+        <folder>xapp</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_qxapp.ini</language>
+	</languages>
+	<administration>
+		<languages>
+			<language tag="en-GB">en-GB.tpl_qxapp.ini</language>
+		</languages>
+	</administration>
+	<positions>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+
+                <field name="uuid" type="text" default="11166763-e89c-44ba-aba7-4e9f4fdf97a9" size="36" label="Quick-XApp User Id" description="Your Quick-XApp User Id"/>
+                <field name="appId" type="text" default="myeventsapp6d" size="36" label="Quick-XApp Id" description="Your Quick-XApp Id "/>
+                <field name="rtConfig" type="text" default="release" size="36" label="Runtime - Configuration" description="Use 'debug' or 'release'"/>
+                <field name="dataHostUrl" type="text" size="36" default="http://www.xapp-studio.com/XApp-portlet" label="Quick-XApp Data Host Url" description="Quick-XApp Data Service Url"/>
+                <field name="customCSSFolder" type="text" default="" size="36" label="Custom CSS Folder" description="Custom CSS Folder. This must be relative to the template's main folder. Leave blank if you want to use the css designed with Quick-XApp."/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

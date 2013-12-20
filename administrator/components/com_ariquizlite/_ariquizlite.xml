@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<extension type="component" version="1.6.0" method="upgrade">
+	<name>com_ariquizlite</name>
+	<creationDate>August 2013</creationDate>
+	<author>ARI Soft</author>
+	<copyright>ARI Soft</copyright>
+	<authorEmail>info@ari-soft.com</authorEmail>
+	<authorUrl>www.ari-soft.com</authorUrl>
+	<version>1.2.4</version>
+	<description>COM_ARIQUIZLITE_DESCR</description>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<installfile>install.ariquizlite.php</installfile>
+	<uninstallfile>uninstall.ariquizlite.php</uninstallfile>
+	<scriptfile>script.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+	</uninstall>
+	<files folder="frontend">
+		<folder>css/</folder>
+		<folder>frontend_pages/</folder>
+		<folder>images/</folder>
+		<folder>view/</folder>
+		<folder>views/</folder>
+		<filename>ariquizlite.php</filename>
+	</files>
+	<administration>
+	    <menu link="com_arquizlite" img="components/com_ariquizlite/images/arisoft_icon.png">COM_ARIQUIZLITE</menu>
+	    <submenu>
+	    	<menu link="option=com_ariquizlite&amp;task=quiz_list" task="quiz_list" img="class:content">COM_ARIQUIZLITE_MENU_QUIZZES</menu>
+			<menu link="option=com_ariquizlite&amp;task=category_list" task="category_list" img="class:category">COM_ARIQUIZLITE_MENU_QUIZCAT</menu>
+			<menu link="option=com_ariquizlite&amp;task=questioncategory_list" task="questioncategory_list" img="class:category">COM_ARIQUIZLITE_MENU_QUECAT</menu>
+			<menu link="option=com_ariquizlite&amp;task=qtemplate_list" task="qtemplate_list" img="class:themes">COM_ARIQUIZLITE_MENU_QUETEMPLATE</menu>
+			<menu link="option=com_ariquizlite&amp;task=texttemplate_list" task="texttemplate_list" img="class:messages">COM_ARIQUIZLITE_MENU_TEXTTEMPLATE</menu>
+			<menu link="option=com_ariquizlite&amp;task=results" task="results" img="class:media">COM_ARIQUIZLITE_MENU_RESULTS</menu>
+			<menu link="option=com_ariquizlite&amp;task=lang_backend" task="lang_backend" img="class:language">COM_ARIQUIZLITE_MENU_LANG</menu>
+			<menu link="option=com_ariquizlite&amp;task=lang_frontend" task="lang_frontend" img="class:language">COM_ARIQUIZLITE_MENU_FLANG</menu>
+			<menu link="option=com_ariquizlite&amp;task=templates" task="templates" img="class:themes">COM_ARIQUIZLITE_MENU_TEMPLATES</menu>
+			<menu link="option=com_ariquizlite&amp;task=help" task="help" img="class:help">COM_ARIQUIZLITE_MENU_HELP</menu>
+			<menu link="option=com_ariquizlite&amp;task=faq" task="faq" img="class:help">COM_ARIQUIZLITE_MENU_FAQ</menu>
+			<menu link="option=com_ariquizlite&amp;task=about" task="about" img="class:info">COM_ARIQUIZLITE_MENU_ABOUT</menu>
+	    </submenu>
+		<languages folder="languages">
+			<language tag="en-GB">en-GB/en-GB.com_ariquizlite.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_ariquizlite.sys.ini</language>
+		</languages>
+	    <files folder="backend">
+			<folder>ajax/</folder>
+			<folder>cache/</folder>
+			<folder>css/</folder>
+			<folder>i18n/</folder>
+			<folder>images/</folder>
+			<folder>install/</folder>
+			<folder>js/</folder>
+			<folder>kernel/</folder>
+			<folder>fields/</folder>
+			<folder>modules/</folder>
+			<folder>pages/</folder>
+			<folder>templates/</folder>
+			<folder>utils/</folder>
+			<filename>ariquizlite.php</filename>
+			<filename>admin.ariquizlite.php</filename>
+			<filename>toolbar.ariquizlite.php</filename>
+			<filename>toolbar.ariquizlite.html.php</filename>
+			<filename>install.php</filename>
+			<filename>uninstall.php</filename>
+		</files>
+	</administration>
+</extension>

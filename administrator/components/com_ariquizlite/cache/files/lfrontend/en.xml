@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource>
+	<item id="Category.Uncategory" group="Labels">
+		<message>Common</message>
+		<description>Name for common category</description>
+	</item>
+	<item id="Label.RemainingTime" group="Labels">
+		<message>Remaining Time</message>
+		<description>Label for remaining time</description>
+	</item>
+	<item id="Label.Completed" group="Labels">
+		<message>Completed</message>
+		<description>Label completed</description>
+	</item>
+	<item id="Label.Print" group="Labels">
+		<message>Print</message>
+		<description>Label print</description>
+	</item>
+	<item id="Label.Continue" group="Labels">
+		<message>Continue</message>
+		<description>Label continue</description>
+	</item>
+	<item id="Label.Email" group="Labels">
+		<message>E-mail</message>
+		<description>Label e-mail</description>
+	</item>
+	<item id="Title.QuizResultList" group="Labels">
+		<message>Quiz Result List</message>
+		<description>Label quiz result list</description>
+	</item>
+	<item id="Label.Quiz" group="Labels">
+		<message>Quiz</message>
+		<description>Quiz</description>
+	</item>
+	<item id="Label.NumberPos" group="Labels">
+		<message>#</message>
+		<description>Position number label</description>
+	</item>
+	<item id="Label.StartDate" group="Labels">
+		<message>Start Date</message>
+		<description>Start Date label</description>
+	</item>
+	<item id="Label.EndDate" group="Labels">
+		<message>End Date</message>
+		<description>End Date label</description>
+	</item>
+	<item id="Label.Score" group="Labels">
+		<message>Score</message>
+		<description>Score</description>
+	</item>
+	<item id="Label.Details" group="Labels">
+		<message>Details</message>
+		<description>Details</description>
+	</item>
+	<item id="Label.Passed" group="Labels">
+		<message>Passed</message>
+		<description>Passed</description>
+	</item>
+	<item id="Label.NoPassed" group="Labels">
+		<message>Not Passed</message>
+		<description>Not Passed</description>
+	</item>
+	<item id="Label.View" group="Labels">
+		<message>View</message>
+		<description>View</description>
+	</item>
+	<item id="Label.Question" group="Labels">
+		<message>Question</message>
+		<description>Question label</description>
+	</item>
+	<item id="Label.Choice" group="Labels">
+		<message>Choice</message>
+		<description>Choice label</description>
+	</item>
+	<item id="Label.Save" group="Labels">
+		<message>Save</message>
+		<description>Save label</description>
+	</item>
+	<item id="Label.Skip" group="Labels">
+		<message>Skip</message>
+		<description>Skip label</description>
+	</item>
+	<item id="Label.Guest" group="Labels">
+		<message>Guest</message>
+		<description>Guest label</description>
+	</item>
+	<item id="Label.EmailQuizResult" group="Labels">
+		<message>Quiz Result</message>
+		<description>Quiz result email subject</description>
+	</item>
+	<item id="Label.EmailSend" group="Labels">
+		<message>Email has been sent</message>
+		<description>Email has been sent label</description>
+	</item>
+	<item id="Label.EmailNotSend" group="Labels">
+		<message>Email has not been sent</message>
+		<description>Email has not been sent label</description>
+	</item>
+	<item id="Label.NotItemsFound" group="Labels">
+		<message>No items to display</message>
+		<description>No items to display label</description>
+	</item>
+
+	<item id="Date.DayShort" group="Labels">
+		<message>d</message>
+		<description>Day short label</description>
+	</item>
+	<item id="Date.HourShort" group="Labels">
+		<message>h</message>
+		<description>Hour short label</description>
+	</item>
+	<item id="Date.MinuteShort" group="Labels">
+		<message>min</message>
+		<description>Minute short label</description>
+	</item>
+	<item id="Date.SecondShort" group="Labels">
+		<message>sec</message>
+		<description>Second short label</description>
+	</item>
+	<item id="Label.QuestionInfo" group="Labels">
+		<message>Question %d of %d</message>
+		<description>Question N of M label</description>
+	</item>
+
+	<item id="FrontEnd.QuizNotAvailable" group="Message">
+		<message>Selected Quiz not available, contact with Administrator</message>
+		<description>Message for quiz not available</description>
+	</item>
+	
+	<item id="Validator.QuestionEmptyAnswer" group="Validators">
+		<message>Please type your answer</message>
+		<description>Freetext validator message</description>
+	</item>
+	<item id="Validator.QuestionNotSelected" group="Validators">
+		<message>Please select answer variant</message>
+		<description>Validator message</description>
+	</item>
+</resource>

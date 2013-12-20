@@ -1,0 +1,149 @@
+.calcMain
+{
+	width: 280px;
+	background: #D4D0C8;
+	border: solid 1px gray;
+}
+
+.calcTitle,.calcTitle DIV
+{
+	height: 23px;
+	background: #425F9A;
+	color: white;
+	font-weight: bold;
+	font-size: 12px !important;
+	padding: 0px 3px 0px 3px;
+}
+
+.calcTitle DIV
+{
+	_position: relative; 
+	line-height: 23px; 
+	vertical-align: middle;
+}
+
+.calcTitle * A
+{
+	color: white !important;
+	text-decoration: none;
+}
+
+.calcWorkAreaContainer
+{
+	padding: 9px 9px 9px 9px;
+}
+
+.calcInputContainer
+{
+	padding-bottom: 12px;
+	text-align: center;
+	width: 100%;
+}
+
+.calcInput
+{
+	width: 255px;
+	height: 22px;
+	border: 1px solid gray;
+	vertical-align: middle;
+	font-size: 12px !important;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.calcMemoryInput
+{
+	width: 26px;
+	height: 22px;
+	font-size: 12px !important;
+	background: transparent;
+	text-align: center;
+	padding-top: 4px;
+	color: black;
+}
+
+.calcMIContainer
+{
+	width: 37px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.calcButton, .calcFButton, .calcNButton, .calcLongFButton
+{
+	width: 37px;
+	height: 28px;
+	font-size: 11px !important;
+	padding: 1px 1px 1px 1px;
+	text-align: center;
+}
+
+.calcLongFButton
+{
+	width: 63px;
+}
+
+.calcFButton, .calcLongFButton
+{
+	color: red;
+}
+
+.calcNButton
+{
+	color: blue;
+}
+
+.calcLeft
+{
+	float: left;
+}
+
+.calcRight
+{
+	float: right;
+}
+
+.calcLongHSplitter
+{
+	width: 9px;
+}
+
+.calcHSplitter
+{
+	width: 5px;
+}
+
+.calcBHSplitter
+{
+	width: 8px;
+}
+
+.calcH35
+{
+	height: 33px;
+}
+
+.calcActive
+{
+	border: solid 1px red;
+}
+
+.calcSelectFree
+{
+	position:absolute;
+	z-index:10;
+	overflow:hidden;
+	width:282px;
+}
+.calcSelectFree iframe
+{
+	display:none;
+	display/**/:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:3000px;
+	height:3000px;
+}

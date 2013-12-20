@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `#__xas_config` VALUES(14, 'login_css_url', '');

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.1" method="upgrade">
+    <creationDate>August 2012</creationDate>
+    <name>XAS</name>
+    <author>xapp-studio.com</author>
+    <authorEmail>support@pearls-media.com</authorEmail>
+    <authorUrl>http://www.xapp-studio.com</authorUrl>
+    <copyright>Copyright (C) 2009-2011 XApp-Studio</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.6.1</version>
+    <description>Quick-XApp Connect, Forward and Mobile Display</description>
+    <scriptfile>install.script.php</scriptfile>
+    <description></description>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>xas.php</filename>
+        <folder>xapp</folder>
+    </files>
+
+    <administration>
+        <menu img="components/com_xas/images/icon-16-xas.png">Quick-XApp</menu>
+        <files folder="admin">
+            <filename>xas.php</filename>
+            <filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <folder>classes</folder>
+            <folder>utils</folder>
+            <folder>templates</folder>
+            <folder>packages</folder>
+            <folder>sql</folder>
+            <folder>server</folder>
+            <filename>xas.css</filename>
+            <filename>images/icon-16-xas.png</filename>
+            <filename>images/icon-48-xas.png</filename>
+
+        </files>
+    </administration>
+
+    <installfile>install.script.php</installfile>
+    <uninstallfile>install.qxapp.php</uninstallfile>
+
+    <updateservers>
+        <server type="collection">http://www.pearls-media.com/updates/list.xml</server>
+        <server type="extension" priority="2" name="Quick-XApp-Update">http://www.pearls-media.com/updates/com_xas.xml</server>
+    </updateservers>
+
+</extension>

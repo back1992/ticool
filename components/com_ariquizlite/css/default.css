@@ -1,0 +1,133 @@
+.ariQuizHeaderTable
+{
+	font-size: 100%;
+	width: 100%;
+}
+
+TABLE.ariQuizHeaderTable TR,
+TABLE.ariQuizHeaderTable TH,
+TABLE.ariQuizHeaderTable TD,
+TABLE.ariQuizQuestionTable TR,
+TABLE.ariQuizQuestionTable TH,
+TABLE.ariQuizQuestionTable TD
+{
+	border-width: 0;
+	border-style: none;
+}
+
+.ariQuizHeaderInfo
+{
+	width: 100%;
+	font-size: 100%;
+}
+
+.ariQuizProgressWrap
+{
+	position: relative;
+	width: 100px; 
+	border: 1px solid black;
+}
+
+.ariQuizProgress
+{
+	position: relative; 
+	background: black;
+}
+
+.ariQuizQuestionTable
+{
+	width: 100%;
+	font-size: 100%;
+	border-collapse: separate; 
+	border-spacing: 4px;
+}
+
+TABLE.ariQuizQuestionTable TD 
+{
+	padding: 4px;
+}
+
+.ariQuizQuestionTitle
+{
+	color: white; 
+	font-weight: bold; 
+	background: blue;
+	text-align: center;
+	width: 80px;
+	padding: 2px 2px 2px 2px;
+}
+
+.ariQuizQuestionLeft
+{
+	width: 80px;
+}
+
+.ariQuizQuestionRight
+{
+	text-align: left;
+	width: 100%;
+}
+
+.ariQuizQuestionTitleCnt
+{ 
+	white-space: nowrap;
+}
+
+.ariQuizHeaderName
+{
+	font-weight: bold;
+}
+
+TABLE.ariQuizAnswersContainer
+{
+	width: 100%;
+}
+
+TABLE.ariQuizAnswersContainer TR
+{
+	vertical-align: top;
+}
+
+.ariAnswerChoice
+{
+	text-align: right;
+}
+
+.ariAnswerChoice *
+{
+	vertical-align: middle;
+}
+
+.ariAnswer
+{
+	vertical-align: middle;
+}
+
+.ariQuizTimeCnt
+{
+	text-align: right;
+}
+
+.ariQuizTime
+{
+	border: none;
+	display: inline !important;
+	background-color: transparent;
+	font-size: 85%;
+}
+
+.ariQuizTimeEnd
+{
+	color: red;
+}
+
+.ariQuizFreeText
+{
+	width: 250px;
+	border: 1px solid gray;
+}
+
+#tblQueContainer LABEL
+{
+	display: inline;
+}

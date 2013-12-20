@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<install>
+  <files folder="../cache/files/lbackend" group="lbackend">
+    <file>
+      <name>en.xml</name>
+      <shortDescription>English</shortDescription>
+      <flags>1</flags>
+      <action>Merge</action>
+    </file>
+  </files>
+  <files folder="../cache/files/lfrontend" group="lfrontend">
+    <file>
+      <name>en.xml</name>
+      <shortDescription>English</shortDescription>
+      <flags>1</flags>
+      <action>Merge</action>
+    </file>
+  </files>
+  <files folder="css" group="css">
+    <file>
+      <name>standard.css</name>
+      <shortDescription>Standard</shortDescription>
+      <flags>1</flags>
+    </file>
+  </files>
+</install>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.6.0" type="module" method="upgrade" client="site">
+	<name>ARI Quiz Top Results</name>
+	<creationDate>October 2012</creationDate>
+	<author>ARI Soft</author>
+	<copyright>ARI Soft</copyright>
+	<authorEmail>info@ari-soft.com</authorEmail>
+	<authorUrl>www.ari-soft.com</authorUrl>
+	<version>1.2.0</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>MODULE_ARIQUIZTOPRESULT</description>
+	<scriptfile>script.php</scriptfile>
+	<files folder="install">
+		<filename module="mod_ariquiztopresult">mod_ariquiztopresult.php</filename>
+		<filename>mod_ariquiztopresult.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

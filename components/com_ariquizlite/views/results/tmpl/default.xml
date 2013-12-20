@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Quizzes Results">
+		<message>
+			<![CDATA[QUIZZES_RESULTS_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_ariquizlite/fields">
+			<field name="task" type="hidden"
+				label=""
+				default="quiz_stat"
+				description=""
+			/>
+		</fieldset>
+	</fields>
+	<state>
+		<name>Quizzes Results Layout</name>
+		<description>QUIZZES_RESULTS_LAYOUT_DESC</description>
+		<url addpath="/administrator/components/com_ariquizlite/elements">
+			<param name="task" type="hidden" default="quiz_stat" label="" description="" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

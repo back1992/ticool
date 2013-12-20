@@ -1,0 +1,56 @@
+ {
+     "name": "XAPP_JSONP_Plugin",
+     "type": "Wordpress",
+     "description": "Proxy",
+     "class":"jsontype.ComposerPackage",
+     "keywords": [],
+     "homepage": "http://xapp.com",
+     "showSMD" : true,
+     "location":"/connect/",
+     "license": "GPL",
+     "authors": [
+         {
+             "name": "mc007",
+             "email": "support@xapp-studio.com"
+         }
+     ],
+     "require": {
+         "xapp/Core": "1.0.x-dev",
+         "xapp/Log": "1.0.x-dev",
+         "xapp/Rpc": "1.0.x-dev",
+         "xapp/Xapp": "1.0.x-dev"
+     },
+     "repositories": [
+         {
+             "packagist": false,
+             "type": "composer",
+             "url": "http://www.xapp-php.com/packages/packages.json"
+         }
+     ],
+     "minimum-stability": "dev",
+     "resources":{
+         "class": "jsontype.ComposerResources",
+         "debug":{
+             "class": "cmx.types.Resources",
+             "distDir": "%XASWEB%/%XLIB%/xapp",
+             "includes": [
+             ],
+             "items": [
+                 {
+                     "class": "cmx.types.Resource",
+                     "enabled": false,
+                     "mountPoint": "",
+                     "name": "",
+                     "order": 0,
+                     "path": "",
+                     "platform": "",
+                     "runTimeConfiguration": "",
+                     "type": "CSS",
+                     "url": "%SITEURL%/files/test.css",
+                     "urlOri": ""
+                 }
+             ]
+         }
+     }
+ }
+

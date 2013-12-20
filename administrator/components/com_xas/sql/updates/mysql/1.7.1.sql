@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `#__xas_config` VALUES(13, 'login', '0');

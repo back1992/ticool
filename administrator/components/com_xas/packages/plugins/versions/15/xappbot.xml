@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.5" type="plugin" group="system" method="upgrade">
+	<name>XAPP-BOT</name>
+	<author>Pearls Media, Dave Rubin Robert Gerald Porter, Anthony Hand</author>
+	<creationDate>2012-08-20</creationDate>
+	<copyright>
+        Joomla Component authored by Pearls Media,
+		Joomla Component authored by Robert Gerald Porter,
+        Joomla Component authored by Dave Rubin,
+		The MobileESP Project is Copyright (C) 2010-2012 Anthony Hand
+	</copyright>
+	<license>GPLv3</license>
+	<authorEmail>support@pearls-media.com</authorEmail>
+	<authorUrl>http://xapp-studio.com/</authorUrl>
+	<version>1.0.0</version>
+	<description>XApp-Bot plugin for Joomla, detects smartphones to redirect to web app site or specific landing URL in Joomla.</description>
+	<files>
+		<filename plugin="xappbot">xappbot.php</filename>
+		<folder>xappbot</folder>
+	</files>
+	<params>
+	   <param name="forwardingEnabled" type="radio" default="0" label="Mobile Forwarding" description="Forward any visitors to specified URL">
+	     <option value="0">Disabled</option>
+	     <option value="1">Enabled</option>
+	   </param>
+
+        <param name="mobileDisplay" type="radio" default="1" label="Mobile Display" description="Enables the mobile display locally instead of forwarding to the Quick-XApp server.">
+            <option value="0">Disabled</option>
+            <option value="1">Enabled</option>
+        </param>
+
+	   <param name="forwardingUrl" type="text" default="http://www.xapp-studio.com/XApp-portlet/mobileClientBoot.jsp" size="35" label="Forwarding URL" description="URL to forward selected mobile users to."/>
+        <param name="uuid" type="text" default="11166763-e89c-44ba-aba7-4e9f4fdf97a9" size="36" label="XApp User UUID" description="Your XApp-Studio User uuid "/>
+        <param name="appId" type="text" default="myeventsapp6d" size="36" label="XApp Id" description="Your XApp Id"/>
+	   <param name="devicesForwarded"  rows="5" cols="35" type="textarea" default="DetectIphoneOrIpod,DetectIpad,DetectAndroidPhone,DetectAndroidTablet" label="Device Detection Functions Used" description="A comma-seperated list of detection functions from mobileesp/mdetect.php to run. If any one of them are true, the device will forward to the forwarding URL. "/>
+	   <param name="webkitOnly" type="radio" default="1" label="WebKit only" description="Forward only when WebKit browser is detected?">
+	     <option value="0">No</option>
+	     <option value="1">Yes</option>
+	   </param>
+
+        <param name="allowTablet" type="radio" default="1" label="Force Phone Display" description="Prevents Tablets Display">
+            <option value="1">No</option>
+            <option value="0">Yes</option>
+        </param>
+
+        <param name="preventCache" type="radio" default="0" label="Prevent Client Side Cache" description="Disable device caching">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="noManifest" type="radio" default="0" label="Prevent Offline Manifest" description="Prevents HTML5 HTML manifest to allow offline apps">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="preventServerCache" type="radio" default="0" label="Prevent Server Cache" description="Prevent server caching">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+
+	 </params>
+</extension>

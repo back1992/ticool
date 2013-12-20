@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource>
+	<item id="Title.About" group="Labels">
+		<message>About</message>
+		<description>About label</description>
+	</item>
+	<item id="Title.BLangResource" group="Labels">
+		<message>Backend Language Resource</message>
+		<description>Title for backend language edit page</description>
+	</item>
+	<item id="Title.FLangResource" group="Labels">
+		<message>Frontend Language Resource</message>
+		<description>Title for frontend language edit page</description>
+	</item>
+	<item id="Label.MainSettings" group="Labels">
+		<message>Main Settings</message>
+		<description>Label for main settings</description>
+	</item>
+	<item id="Label.Name" group="Labels">
+		<message>Name</message>
+		<description>Name Label</description>
+	</item>
+	<item id="Label.Email" group="Labels">
+		<message>Email</message>
+		<description>Email Label</description>
+	</item>
+	<item id="Label.Category" group="Labels">
+		<message>Category</message>
+		<description>Category Label</description>
+	</item>
+	<item id="Label.Description" group="Labels">
+		<message>Description</message>
+		<description>Description Label</description>
+	</item>
+	<item id="Title.CategoryList" group="Labels">
+		<message>Quiz Category List</message>
+		<description>Title for quiz category list page</description>
+	</item>
+	<item id="Title.FAQ" group="Labels">
+		<message>F.A.Q.</message>
+		<description>F.A.Q. label</description>
+	</item>
+	<item id="Title.Help" group="Labels">
+		<message>Help</message>
+		<description>Help label</description>
+	</item>
+	<item id="Title.TemplateList" group="Labels">
+		<message>Template List</message>
+		<description>Template List label</description>
+	</item>
+	<item id="Title.License" group="Labels">
+		<message>License</message>
+		<description>License label</description>
+	</item>
+	<item id="Label.NewLicense" group="Labels">
+		<message>New License</message>
+		<description>New License label</description>
+	</item>
+	<item id="Label.Domain" group="Labels">
+		<message>Domain</message>
+		<description>Domain label</description>
+	</item>
+	<item id="Label.LicenseKey" group="Labels">
+		<message>License Key</message>
+		<description>License Key label</description>
+	</item>
+	<item id="Label.StartDate" group="Labels">
+		<message>Start Date</message>
+		<description>Start Date label</description>
+	</item>
+	<item id="Label.EndDate" group="Labels">
+		<message>End Date</message>
+		<description>End Date label</description>
+	</item>
+	<item id="Label.Expired" group="Labels">
+		<message>Expired</message>
+		<description>Expired label</description>
+	</item>
+	<item id="Label.NotExpired" group="Labels">
+		<message>Not Expired</message>
+		<description>Not Expired label</description>
+	</item>
+	<item id="Label.NotItemsFound" group="Labels">
+		<message>No items found.</message>
+		<description>Not items found label</description>
+	</item>
+	<item id="Label.NumberPos" group="Labels">
+		<message>#</message>
+		<description>Position number label</description>
+	</item>
+	<item id="Label.Apply" group="Labels">
+		<message>Apply</message>
+		<description>Apply label</description>
+	</item>
+	<item id="Title.QuestionTemplate" group="Labels">
+		<message>Question Template</message>
+		<description>Question Template label</description>
+	</item>
+	<item id="Label.QuestionType" group="Labels">
+		<message>Question Type</message>
+		<description>Question Type label</description>
+	</item>
+	<item id="Label.DisableQueValidation" group="Labels">
+		<message>Disable Question Validation</message>
+		<description>Disable Question Validation label</description>
+	</item>
+	<item id="Label.Question" group="Labels">
+		<message>Question</message>
+		<description>Question</description>
+	</item>
+	<item id="Label.Quiz" group="Labels">
+		<message>Quiz</message>
+		<description>Quiz</description>
+	</item>
+	<item id="Label.Score" group="Labels">
+		<message>Score</message>
+		<description>Score</description>
+	</item>
+	<item id="Label.AdditionalSettings" group="Labels">
+		<message>Additional Settings</message>
+		<description>Additional Settings</description>
+	</item>
+	<item id="Title.QuestionList" group="Labels">
+		<message>Question List</message>
+		<description>Question List</description>
+	</item>
+	<item id="Label.Reorder" group="Labels">
+		<message>Reorder</message>
+		<description>Reorder</description>
+	</item>
+	<item id="Title.QuestionResultView" group="Labels">
+		<message>Question Result View</message>
+		<description>Question Result View</description>
+	</item>
+	<item id="Title.QuestionCategory" group="Labels">
+		<message>Question Category</message>
+		<description>Question Category</description>
+	</item>
+	<item id="Label.QuestionCount" group="Labels">
+		<message>Question Count</message>
+		<description>Question Count label</description>
+	</item>
+	<item id="Label.QuestionTime" group="Labels">
+		<message>Question Time</message>
+		<description>Question Time label</description>
+	</item>
+	<item id="Title.QuestionCategoryList" group="Labels">
+		<message>Question Category List</message>
+		<description>Question Category List</description>
+	</item>
+	<item id="Label.TextTemplates" group="Labels">
+		<message>Text Templates</message>
+		<description>Text Templates</description>
+	</item>
+	<item id="Label.SucEmailTemplate" group="Labels">
+		<message>Successful Email Template</message>
+		<description>Successful Email Template</description>
+	</item>
+	<item id="Label.FailedEmailTemplate" group="Labels">
+		<message>Failed Email Template</message>
+		<description>Failed Email Template</description>
+	</item>
+	<item id="Label.SucPrintTemplate" group="Labels">
+		<message>Successful Print Template</message>
+		<description>Successful Print Template</description>
+	</item>
+	<item id="Label.FailedPrintTemplate" group="Labels">
+		<message>Failed Print Template</message>
+		<description>Failed Print Template</description>
+	</item>
+	<item id="Label.SucTemplate" group="Labels">
+		<message>Successful Template</message>
+		<description>Successful Template</description>
+	</item>
+	<item id="Label.FailedTemplate" group="Labels">
+		<message>Failed Template</message>
+		<description>Failed Template</description>
+	</item>
+	<item id="Title.QuizList" group="Labels">
+		<message>Quiz List</message>
+		<description>Quiz List</description>
+	</item>
+	<item id="Title.Result" group="Labels">
+		<message>Result</message>
+		<description>Result</description>
+	</item>
+	<item id="Label.Details" group="Labels">
+		<message>Details</message>
+		<description>Details</description>
+	</item>
+	<item id="Label.PreviewTemplate" group="Labels">
+		<message>Preview Template</message>
+		<description>Preview Template</description>
+	</item>
+	<item id="Label.User" group="Labels">
+		<message>User</message>
+		<description>User</description>
+	</item>
+	<item id="Label.Passed" group="Labels">
+		<message>Passed</message>
+		<description>Passed</description>
+	</item>
+	<item id="Label.NoPassed" group="Labels">
+		<message>Not Passed</message>
+		<description>Not Passed</description>
+	</item>
+	<item id="Title.QuizResultList" group="Labels">
+		<message>Quiz Result List</message>
+		<description>Quiz Result List</description>
+	</item>
+	<item id="Title.CSSTemplate" group="Labels">
+		<message>CSS Template</message>
+		<description>CSS Template</description>
+	</item>
+	<item id="Label.Params" group="Labels">
+		<message>Params</message>
+		<description>Parameters</description>
+	</item>
+	<item id="Label.Actions" group="Labels">
+		<message>Actions</message>
+		<description>Actions</description>
+	</item>
+	<item id="Label.CorrectAnswers" group="Labels">
+		<message>Correct Answers</message>
+		<description>Correct Answers</description>
+	</item>
+	<item id="Label.Correct" group="Labels">
+		<message>Correct</message>
+		<description>Correct Label</description>
+	</item>
+	<item id="Label.TextCI" group="Labels">
+		<message>Case Insensetive</message>
+		<description>Case Insensetive</description>
+	</item>
+	<item id="Label.Image" group="Labels">
+		<message>Image</message>
+		<description>Image Label</description>
+	</item>
+	<item id="Label.Clear" group="Labels">
+		<message>Clear</message>
+		<description>Clear Label</description>
+	</item>
+	<item id="Label.Answer" group="Labels">
+		<message>Answer</message>
+		<description>Answer Label</description>
+	</item>
+	<item id="Label.Access" group="Labels">
+		<message>Access (User Group)</message>
+		<description>Access Group Label</description>
+	</item>
+	<item id="Label.Active" group="Labels">
+		<message>Active</message>
+		<description>Active Label</description>
+	</item>
+	<item id="Label.Inactive" group="Labels">
+		<message>Inactive</message>
+		<description>Inactive Label</description>
+	</item>
+	<item id="Label.TotalTime" group="Labels">
+		<message>Total Time</message>
+		<description>Total Time Label</description>
+	</item>
+	<item id="Label.PassedScore" group="Labels">
+		<message>Passed Score</message>
+		<description>Passed Score Label</description>
+	</item>
+	<item id="Label.Skip" group="Labels">
+		<message>Can Skip</message>
+		<description>Can Skip label</description>
+	</item>
+	<item id="Label.RandomQuestion" group="Labels">
+		<message>Random Question</message>
+		<description>Random Question label</description>
+	</item>
+	<item id="Label.Questions" group="Labels">
+		<message>Questions</message>
+		<description>Questions label</description>
+	</item>
+	<item id="Label.Results" group="Labels">
+		<message>Results</message>
+		<description>Results label</description>
+	</item>
+	<item id="Label.NotSelectedItem" group="Labels">
+		<message>none</message>
+		<description>Label for not selected item</description>
+	</item>
+	<item id="Label.Template" group="Labels">
+		<message>Template</message>
+		<description>Template Label</description>
+	</item>
+	<item id="Label.Tooltip" group="Labels">
+		<message>Tooltip</message>
+		<description>Tooltip label</description>
+	</item>
+	<item id="Label.Filter" group="Labels">
+		<message>Filter</message>
+		<description>Filter label</description>
+	</item>
+	<item id="Label.View" group="Labels">
+		<message>View</message>
+		<description>View label</description>
+	</item>
+	<item id="Label.Status" group="Labels">
+		<message>Status</message>
+		<description>Status label</description>
+	</item>
+	<item id="Label.QCategories" group="Labels">
+		<message>Question Categories</message>
+		<description>Question Categories label</description>
+	</item>
+	<item id="Text.EmptyAnswerIgnored" group="Labels">
+		<message>Note: Empty answer is ignored</message>
+		<description>Empty answer is ignored text</description>
+	</item>
+	<item id="Label.SendResultTo" group="Labels">
+		<message>Send Result To</message>
+		<description>Send Result To label</description>
+	</item>
+	<item id="Label.AddItem" group="Labels">
+		<message>Add</message>
+		<description>Add label</description>
+	</item>
+	<item id="Label.UpdateItem" group="Labels">
+		<message>Update</message>
+		<description>Update label</description>
+	</item>
+	<item id="Label.Text" group="Labels">
+		<message>Text</message>
+		<description>Text label</description>
+	</item>
+	<item id="Label.LagTime" group="Labels">
+		<message>Lag Time</message>
+		<description>Lag Time label</description>
+	</item>
+	<item id="Label.AttemptCount" group="Labels">
+		<message>Attempt Count</message>
+		<description>Attempt Count label</description>
+	</item>
+	<item id="Label.Guest" group="Labels">
+		<message>Guest</message>
+		<description>Guest label</description>
+	</item>
+	<item id="Label.Default" group="Labels">
+		<message>Default</message>
+		<description>Default label</description>
+	</item>
+	<item id="Label.Message" group="Labels">
+		<message>Message</message>
+		<description>Message label</description>
+	</item>
+	<item id="Label.File" group="Labels">
+		<message>File</message>
+		<description>File label</description>
+	</item>
+	<item id="Title.LangList" group="Labels">
+		<message>Language List</message>
+		<description>Language list label</description>
+	</item>
+	<item id="Label.AllCategory" group="Labels">
+		<message>- All Category -</message>
+		<description>All Category label</description>
+	</item>
+	<item id="Label.AllStatus" group="Labels">
+		<message>- All Status -</message>
+		<description>All Status label</description>
+	</item>
+	<item id="Label.AllQuiz" group="Labels">
+		<message>- All Quiz -</message>
+		<description>All Quiz label</description>
+	</item>
+	<item id="Label.AllUser" group="Labels">
+		<message>- All User -</message>
+		<description>All User label</description>
+	</item>
+	<item id="Date.DayShort" group="Labels">
+		<message>d</message>
+		<description>Day short label</description>
+	</item>
+	<item id="Date.HourShort" group="Labels">
+		<message>h</message>
+		<description>Hour short label</description>
+	</item>
+	<item id="Date.MinuteShort" group="Labels">
+		<message>min</message>
+		<description>Minute short label</description>
+	</item>
+	<item id="Date.SecondShort" group="Labels">
+		<message>sec</message>
+		<description>Second short label</description>
+	</item>
+
+	<!--  Validators -->
+	<item id="Validator.EmailIncorrect" group="Validators">
+		<message>Email has incorrect format</message>
+		<description>Email has incorrect format validation message</description>
+	</item>
+	<item id="Validator.InvalidLicense" group="Validators">
+		<message>Enter valid key, please</message>
+		<description>Not valid license validation message</description>
+	</item>
+	<item id="Validator.NameRequired" group="Validators">
+		<message>Name is required</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.NameNotUnique" group="Validators">
+		<message>Name is not unique</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.NotSelectImage" group="Validators">
+		<message>Select image, please</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.NotSelectArea" group="Validators">
+		<message>Select area, please</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.TotalTime" group="Validators">
+		<message>Total time start from 0</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionTime" group="Validators">
+		<message>Question time start from 0</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionScore" group="Validators">
+		<message>Question score start from 0</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionScoreRequired" group="Validators">
+		<message>Question score is required</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.PassedScore" group="Validators">
+		<message>Passed Score from 0 to 100</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionCount" group="Validators">
+		<message>Question count start from 0</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionRequired" group="Validators">
+		<message>Question is required</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionNotAnswer" group="Validators">
+		<message>Please specify one or more answer</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.QuestionNotCorrect" group="Validators">
+		<message>Please specify correct answer(s)</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.LagTime" group="Validators">
+		<message>Lag Time must be greater or equal to 0</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.AttemptCount" group="Validators">
+		<message>Attempt Count must be greater or equal to 0</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.TextRequired" group="Validators">
+		<message>Text is required</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.TemplateRequired" group="Validators">
+		<message>Template is required</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.FileRequired" group="Validators">
+		<message>File is required</message>
+		<description>Validator message</description>
+	</item>
+	<item id="Validator.FileIncorrectFormat" group="Validators">
+		<message>File has incorrect format</message>
+		<description>Validator message</description>
+	</item>
+
+	<!-- Completed messages -->
+	<item id="Complete.QuizSave" group="Complete">
+		<message>Quiz saved</message>
+		<description>Quiz saved text</description>
+	</item>
+	<item id="Complete.QuestionSave" group="Complete">
+		<message>Question saved</message>
+		<description>Question saved text</description>
+	</item>
+	<item id="Complete.CategorySave" group="Complete">
+		<message>Category saved</message>
+		<description>Category save text</description>
+	</item>
+	<item id="Complete.QCategorySave" group="Complete">
+		<message>Question category saved</message>
+		<description>Question category saved text</description>
+	</item>
+	<item id="Complete.QuestionDelete" group="Complete">
+		<message>Question deleted</message>
+		<description>Question deleted text</description>
+	</item>
+	<item id="Complete.QuestionCategoryDelete" group="Complete">
+		<message>Question category deleted</message>
+		<description>Question category deleted text</description>
+	</item>
+	<item id="Complete.QuizDelete" group="Complete">
+		<message>Quiz deleted</message>
+		<description>Quiz deleted text</description>
+	</item>
+	<item id="Complete.QuizActivate" group="Complete">
+		<message>Quiz activated</message>
+		<description>Quiz activated text</description>
+	</item>
+	<item id="Complete.QuizDeactivate" group="Complete">
+		<message>Quiz deactivated</message>
+		<description>Quiz deactivated text</description>
+	</item>
+	<item id="Complete.ChangeQuestionOrder" group="Complete">
+		<message>Question order changed</message>
+		<description>Question order changed text</description>
+	</item>
+	<item id="Complete.CategoryDelete" group="Complete">
+		<message>Category deleted</message>
+		<description>Category deleted text</description>
+	</item>
+	<item id="Complete.QTemplateSave" group="Complete">
+		<message>Template saved</message>
+		<description>Question template saved text</description>
+	</item>
+	<item id="Complete.DeleteQTemplate" group="Complete">
+		<message>Templates deleted</message>
+		<description>Templates deleted text</description>
+	</item>
+	<item id="Complete.TemplateSave" group="Complete">
+		<message>Template saved</message>
+		<description>Template saved text</description>
+	</item>
+	<item id="License.AddLicense" group="Complete">
+		<message>License key added</message>
+		<description>License key added text</description>
+	</item>
+	<item id="License.BeforeUseSpecifyKey" group="Complete">
+		<message>Please specify license key before using the component</message>
+		<description>Specify license key before using text</description>
+	</item>
+	<item id="License.IncorrectLicense" group="Complete">
+		<message>Incorrect license key entered</message>
+		<description>Typed incorrect license key text</description>
+	</item>
+	<item id="License.SpecifyKey" group="Complete">
+		<message>Please specify license key</message>
+		<description>Specift license key text</description>
+	</item>
+	<item id="License.LicenseExists" group="Complete">
+		<message>This license key already exists</message>
+		<description>This license key already exists text</description>
+	</item>
+	<item id="Complete.LangSave" group="Complete">
+		<message>Language theme saved</message>
+		<description>Language theme saved text</description>
+	</item>
+	<item id="Complete.SetLangDefault" group="Complete">
+		<message>Selected language theme set as default</message>
+		<description>Set default language text</description>
+	</item>
+	<item id="Complete.LangDelete" group="Complete">
+		<message>Language themes deleted</message>
+		<description>Language themes deleted text</description>
+	</item>
+	<item id="Complete.FileImport" group="Complete">
+		<message>File imported succesfully</message>
+		<description>File imported succesfully text</description>
+	</item>
+
+	<!-- Toolbar -->
+	<item id="Button.Back" group="Toolbar">
+		<message>Back</message>
+		<description>Back button</description>
+	</item>
+	<item id="Button.Add" group="Toolbar">
+		<message>Add</message>
+		<description>Add button</description>
+	</item>
+	<item id="Button.Edit" group="Toolbar">
+		<message>Edit</message>
+		<description>Edit button</description>
+	</item>
+	<item id="Button.Remove" group="Toolbar">
+		<message>Remove</message>
+		<description>Remove button</description>
+	</item>
+	<item id="Button.Activate" group="Toolbar">
+		<message>Activate</message>
+		<description>Activate button</description>
+	</item>
+	<item id="Button.Deactivate" group="Toolbar">
+		<message>Deactivate</message>
+		<description>Deactivate button</description>
+	</item>
+	<item id="Toolbar.Import" group="Toolbar">
+		<message>Import</message>
+		<description>Import button</description>
+	</item>
+	<item id="Toolbar.Export" group="Toolbar">
+		<message>Export</message>
+		<description>Export button</description>
+	</item>
+	<item id="Toolbar.ExportToCSV" group="Toolbar">
+		<message>To CSV</message>
+		<description>To CSV button</description>
+	</item>
+	<item id="Toolbar.ExportToExcel" group="Toolbar">
+		<message>To Excel</message>
+		<description>To Excel button</description>
+	</item>
+	<item id="Toolbar.ExportToWord" group="Toolbar">
+		<message>To Word</message>
+		<description>To Word button</description>
+	</item>
+	<item id="Toolbar.ExportToHTML" group="Toolbar">
+		<message>To HTML</message>
+		<description>To HTML button</description>
+	</item>
+	<item id="Toolbar.Filters" group="Toolbar">
+		<message>Filters</message>
+		<description>Filters button</description>
+	</item>
+	<item id="Toolbar.Apply" group="Toolbar">
+		<message>Apply</message>
+		<description>Apply button</description>
+	</item>
+	<item id="Toolbar.Cancel" group="Toolbar">
+		<message>Cancel</message>
+		<description>Cancel button</description>
+	</item>
+	<item id="Toolbar.Save" group="Toolbar">
+		<message>Save</message>
+		<description>Save button</description>
+	</item>
+	<item id="Toolbar.QuizList" group="Toolbar">
+		<message>Quiz List</message>
+		<description>Quizzes button</description>
+	</item>
+	<item id="Toolbar.ResultList" group="Toolbar">
+		<message>Result List</message>
+		<description>Result list button</description>
+	</item>
+	<item id="Toolbar.Results" group="Toolbar">
+		<message>Results</message>
+		<description>Results button</description>
+	</item>
+	<item id="Toolbar.Default" group="Toolbar">
+		<message>Default</message>
+		<description>Default button</description>
+	</item>
+	<item id="Label.NextResult" group="Toolbar">
+		<message>Next Result</message>
+		<description>Next Result button</description>
+	</item>
+	<item id="Label.PrevResult" group="Toolbar">
+		<message>Prev Result</message>
+		<description>Prev Result button</description>
+	</item>
+	<item id="Toolbar.Preview" group="Toolbar">
+		<message>Preview</message>
+		<description>Preview button</description>
+	</item>
+
+	<!-- Warning messages -->
+	<item id="Warning.QuizRemove" group="Warning">
+		<message>Do you want to remove selected quizzes?</message>
+		<description>Quiz removed warning message</description>
+	</item>
+	<item id="Warning.CategoryRemove" group="Warning">
+		<message>Do you want to remove selected categories?</message>
+		<description>Category removed warning message</description>
+	</item>
+	<item id="Warning.QTemplateRemove" group="Warning">
+		<message>Do you want to remove selected templates?</message>
+		<description>Question template removed warning message</description>
+	</item>
+	<item id="Warning.QuestionAnswerRemove" group="Warning">
+		<message>Are you sure?</message>
+		<description>Question answer removed warning message</description>
+	</item>
+	<item id="Warning.QuestionRemove" group="Warning">
+		<message>Do you want to remove selected questions?</message>
+		<description>Question removed warning message</description>
+	</item>
+	<item id="Warning.QCategoryRemove" group="Warning">
+		<message>Do you want to remove selected categories?</message>
+		<description>Question category removed warning message</description>
+	</item>
+	<item id="Warning.DeleteQueFromQCategory" group="Warning">
+		<message>Do you want to delete questions from these categories?</message>
+		<description>Removed question from category warning message</description>
+	</item>
+	<item id="Warning.QCategoryCreateQuiz" group="Warning">
+		<message>Create quiz before, please</message>
+		<description>Create quiz before create question category warning message</description>
+	</item>
+
+	<!-- Text messages -->
+	<item id="Tooltip.QuizCanSkip" group="Text">
+		<message>If this option is active, than user can skip question and return to it later</message>
+		<description>Quiz can skip tooltip</description>
+	</item>
+	<item id="Tooltip.QuizRandomQuestion" group="Text">
+		<message>If this option is active, than quiz is composed of random questions ignoring questions order, else questions will come in queue order</message>
+		<description>Random quiz tooltip</description>
+	</item>
+
+	<!-- F.A.Q. -->
+	<item id="RichText.FAQ" group="F.A.Q." type="WYSIWYG">
+		<message>
+			<![CDATA[
+				<ol>
+					<li><b>How can I install update for the component?</b><br/>
+					At first, uninstall of the component. This will remove all the files related to the component, but all the data will remain in the database. After this, install the new version of the component. That's it, the component is ready.
+					<br /><br />
+					<li><b>How can I add the point of the menu leading to the list of quizzes?</b><br/>
+					Use Joomla Menu Manager:<br />
+					- Click "New" Button.<br />
+					- Select "Component" from the "Components" section.<br />
+					- Choose ARI Quiz Lite component.<br />
+					- Click "Save" Button.
+					<br /><br />
+					<li><b>How can I recognize Quiz ID?</b><br/>
+					You can see it at the page with the list of quizzes, otherwise while updating a test.
+					<br /><br />
+					<li><b>How can I add the point of the menu leading to a definite quiz?</b><br/>
+					The link will look the following way: index.php?option=com_ariquizlite&quiz_id=&amp;lt;Quiz ID&amp;gt;
+					<br /><br />
+					<li><b>Can users look through the statistics of the quizzes they passed?</b><br/>
+					Yes, it is available to the registered users by the link index.php?option=com_ariquizlite&task=quiz_stat. For your convenience you can add appropriate menu item with this link. 
+				</ol>
+			]]>
+		</message>
+		<description>F.A.Q. text</description>
+	</item>
+	<!-- Help  -->
+	<item id="RichText.Help" group="Help" type="WYSIWYG">
+		<message>
+			<![CDATA[
+				<ol>
+					<li><b>Quiz Categories</b><br/>
+					Categories for questions are used to divide the quizzes according to the themes.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Category</b><br/>
+						To add a category click "Add" button at the page with the list of categories. For updating click the name of the category in the list of categories. While adding/updating you can define the following properties:<br/>
+						- Category name;<br/>
+						- Category description;<br/>
+						<li><b>Category List</b><br/>
+						At this page the list of categories is shown and there is a possibility to delete the selected categories.<br/>
+					</ol>
+					<br /><br />
+
+					<li><b>Question Categories</b><br/>
+					Is used if you want to create a review quiz on different themes. In this case, you add question category for the themes you need and give the appropriate question categories to the question created.
+					<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Question Category</b><br/>
+						To add question category click "Add" button at the page with the list of question categories, to update it click the name of the question category in the list of categories. While adding / updating, you can define the following properties:<br/>
+						- You can choose a quiz it refers to.(If you are adding a new question category);<br/>
+						- Category name;<br/>
+						- Define the quantity of questions selected from category question pool while passing a quiz. If meaning "0" or empty is defined, all questions from the given category will be selected;<br/>
+						- Define the amount of time given to think of the answer to the question from the given category. When the given time runs out, you pass to the next question. At this case the previous question is not counted. If meaning "0" or empty is defined, then an unlimited amount of time will be given to think of the answer;<br/>
+						- Category description;<br/>
+						<li><b>Question Category List</b><br/>
+						At this page the list of question category is shown. You have a possibility to delete the selected categories. While deleting you will be requested: to delete the questions connected with the category or to make them not refering to any question category.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Question Templates</b><br/>
+					In this section you can add question templates for creating new questions on the basis of basic type of questions (See section 9.c). It is used for the more convenient creation of frequently repeating options, for example: "Yes/No", "True/False".<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Question Template</b><br/>
+						To create a question template click "Add" button at the page with the list of question templates. For updating click the name question template in the template list. While adding / updating you can define the following properties:<br/>
+						- Template name;<br/>
+						- Type of question (See section 9.c);<br/>
+						- Activate / Deactivate validating question parameters while saving the template;<br/>
+						- Define the parameters for the type of question selected;<br/>
+						<li><b>Question Template List</b><br/>
+						At this page the list of question templates is shown and you have a possibility to delete the selected templates.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Text Templates</b><br/>
+					In this section you can manage text templates which can be used to release the results of the quiz.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Text Template</b><br/>
+						To add / update text template click "Add" button at the page with the of text templates. To update it click the name text template in the template list. While adding / updating you can add the following properties:<br/>
+						- Text template name;<br/>
+						- Template text;<br/>
+						<li><b>Text Template List</b><br/>
+						At this page the list of tex templates is shown and you can delete the templates selected.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Quiz Results</b><br/>
+					In this section you can look through the results of quizzes passed by users. For convevient search of the quizzes you need you can use a filter which allows to select the results of a particilar quiz or user. Besides the possibility to export the results you have chosen in CSV format.
+					<br /><br /><br />
+					
+					<li><b> Language (Backend / Frontend)</b><br/>
+					In this section a possibility to choose the existing language resourses is foreseen. Besides you can add the new ones; a separate interface for backend and frontend is foreseen. You can also export language settings to XML file or import them from XML file.
+					<br /><br /><br />
+					
+					<li><b>Templates</b><br/>
+					In this section the management of CSS templates is carried out. They can by used while showing quizzes to users.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update CSS Template</b><br/>
+						To add CSS template click "Add" button at the page with CSS template list, to update click the name CSS template in the template list. While adding / updating you can define the following properties:<br/>
+						- Template name;<br/>
+						- Template text;<br/>
+						<li><b>Question Template List</b><br/>
+						At this page the list of CSS template is shown and there is a possibility to delete selected templates.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Quiz List</b><br/>
+					In this section you can manage quizzes.<br/><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Quiz</b><br/>
+						To create a quiz click "Add" button at the page with the list of quizzes. To update it click quiz name in the list of quizzes. While adding / updating you can define the following properties:<br/>
+						- Quiz name;<br/>
+						- Category refers to the quiz.(See section 1);<br/>
+						- The group of users which have access to the quiz. If "Guest" group is selected all users will have access to the quiz. This option is hierarchical: once you've chosen the "Author" group, than "Author", "Editor" and "Publisher" will have access to the quiz;<br/>
+						- Activate or deactivate quiz;<br/>
+						- Set the time given to pass a quiz . If meaning "0" or empty is set, the whole time to pass a quiz is not limited but the time for answering questions can be limited;<br/>
+						- Set the quantity of scores needed to pass a quiz (in percent);<br/>
+						- Set the maximal amount of questions in the quiz, if meaning "0" or empty is set, all questions will be added to quiz question pool;<br/>
+						- Set the time given to think of the answer to the question. If meaning "0" or empty is defined the whole time for passing a test is unlimited but it can be redefined on the category of the question level or question level;<br/>
+						- Quiz description;<br/>
+						- Define a text template to show a user after successful completion of  quiz. If not defined, nothing will be shown to the user after the completion;<br/>
+						- Define a text template to show a user if user failed a quiz. If not defined, nothing will be shown to the user after the failure;<br/>
+						- Define a text template for printing after the successful completion of a quiz. If not defined, a user will not be able to print the results;<br/>
+						- Define a text template for printing  after quiz failure. If not defined, a user will not be able to print the results;<br/>
+						- Define a text template for sending to e-mail after successful completion of the quiz. If not defined users will not be able to send the results to their e-mail after successful completion of the quiz;<br/>
+						- Define a text template for sending to e-mail after quiz failure. If not defined users will not be able to send the results on their e-mail in the case of failure;<br/>
+						- Define CSS Template for showing a quiz to the user;<br/>
+						- Allow a user to skip questions and back to them later;<br/>
+						- Show questions in occasional order;<br/>
+						- Define a period of time which must pass after the completion of the quiz to make it available to a user again. If meaning "0" or empty is defined the quantity is unlimited.(Doesn't refer to unregistered users).<br/>
+						
+						<li><b>Quiz List</b><br/>
+						At this page the list of quizzes is shown and there is a possibility to delete selected quizzes or to activate / inactivate them.<br/>
+					</ol>
+					<br /><br />
+					
+					<li><b>Questions Management</b><br/>
+					<ol style="list-style: lower-alpha;">
+						<li><b>Add / Update Question</b><br/>
+						To add a question click "Add" button at the page with the list of questions. To update it click the text of the question in the list of questions. While adding / updating you can add the following properties:<br/>
+						- Define a question category.(See section 2);<br/>
+						- Add a question on the basis of question templates.(See section 3);<br/>
+						- Select a type of questions on the basis of which a question will be created. (See section 9.c)<br/>
+						- Define quantity of scores for the right answer;<br/>
+						- Define the text of question (WYSIWYG editor is used);<br/>
+						- Define the parameters for the type of question selected.<br/>
+
+						<li><b>Question List</b><br/>
+						To go to the page with the list of quiz questions click view of quiz questions at page Quiz List (See section 9.b). At this page there is a possibility to delete the selected questions or to make a reorder, the order of questions will be taken into consideration if showing questions in order is used in the quiz.<br/>
+						
+						<li><b>Question Type</b><br/>
+						- Single Question: is used for question with two or more answer options, only one of which is true;<br/>
+						- Multiple Question: is used for questions with two or more options from which several options must be choosed;<br/>
+						- FreeText Question: is used for questions in which the answer must be introduced in the text field. While creating this type of question the user produces correct variants.<br/>
+					</ol>
+				</ol>
+			]]>
+		</message>
+		<description>Help text</description>
+	</item>
+</resource>

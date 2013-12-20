@@ -1,0 +1,32 @@
+ {
+     "name": "XCZoo",
+     "type": "Joomla",
+     "description": "Zoo implementation for Joomla",
+     "class":"jsontype.ComposerPackage",
+     "keywords": [],
+     "location":"/connect/joomla/zoo/",
+     "showSMD" : true,
+     "homepage": "http://xapp.com",
+     "license": "GPL",
+     "authors": [
+         {
+             "name": "mc007",
+             "email": "support@xapp-studio.com"
+         }
+     ],
+     "require": {
+         "xapp/Core": "1.0.x-dev",
+         "xapp/Log": "1.0.x-dev",
+         "xapp/Rpc": "1.0.x-dev",
+         "xapp/Xapp": "1.0.x-dev"
+     },
+     "repositories": [
+         {
+             "packagist": false,
+             "type": "composer",
+             "url": "http://www.xapp-php.com/packages/packages.json"
+         }
+     ],
+     "minimum-stability": "dev"
+ }
+

@@ -1,0 +1,31 @@
+ {
+     "name": "Wordpress",
+     "type": "Wordpress",
+     "description": "Wordpress core implementation",
+     "class":"jsontype.ComposerPackage",
+     "keywords": [],
+     "location":"/connect/wordpress/",
+     "showSMD" : true,
+     "homepage": "http://xapp.com",
+     "license": "GPL",
+     "authors": [
+         {
+             "name": "mc007",
+             "email": "support@xapp-studio.com"
+         }
+     ],
+     "require": {
+         "xapp/Core": "1.0.x-dev",
+         "xapp/Log": "1.0.x-dev",
+         "xapp/Rpc": "1.0.x-dev",
+         "xapp/Xapp": "1.0.x-dev"
+     },
+     "repositories": [
+         {
+             "packagist": false,
+             "type": "composer",
+             "url": "http://www.xapp-php.com/packages/packages.json"
+         }
+     ],
+     "minimum-stability": "dev"
+ }
